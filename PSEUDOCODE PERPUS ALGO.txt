@@ -1,0 +1,25 @@
+START
+Inisialisasi data buku dan status
+
+DO
+    Tampilkan menu
+    Input pilihan
+
+    IF pilihan = 1 THEN
+        Tampilkan daftar buku
+    ELSE IF pilihan = 2 THEN
+        Input nomor buku
+        Jika buku tersedia → pinjam
+    ELSE IF pilihan = 3 THEN
+        Input nomor buku
+        Jika buku dipinjam → kembalikan
+    ELSE IF pilihan = 4 THEN
+        SELESAI
+    ELSE
+        Tampilkan pesan tidak valid
+    ENDIF
+
+    Tanya ulang ke menu
+WHILE jawab = y
+
+END
